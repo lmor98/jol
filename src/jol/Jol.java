@@ -39,4 +39,7 @@ public class Jol {
     public static void multiplicacion(int A,int B){
     System.out.format("A*B= %4d%n", A*B);
     }
+    public static void division( int A, int B){
+        System.out.format("A / B = %4d%n", A / B);
+    }
 }
