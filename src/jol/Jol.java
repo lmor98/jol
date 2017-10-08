@@ -31,12 +31,15 @@ public class Jol {
          in.nextLine();
     }
     public static void suma(int A,int B){
-        System.out.format("A+B= %4d%n", A+B);
+        System.out.format("La suma de A + B és:", A+B);
     }
     public static void resta(int A,int B){
         System.out.format("La resta de A - B és:", A-B);
     }
     public static void multiplicacion(int A,int B){
     System.out.format("A*B= %4d%n", A*B);
+    }
+    public static void division( int A, int B){
+        System.out.format("A / B = %4d%n", A / B);
     }
 }
