@@ -40,7 +40,8 @@ public class Fecha {
         return mes;
     }
 
-    public int getAño() {
+    public int getAnyo() {
+        //cambio nombre metodo
         return anyo;
     }
     public static String fantasma(){
